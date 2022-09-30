@@ -5,34 +5,83 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Odin Landing Page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,900&display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav>
-    <div class="logo"><a href="#">Header Logo</a></div>
-    <div class="nav-links">
-      <ul>
+  <div class="nav-background">
+    <div class="nav-content">
+      <div class="nav-logo"><a href="#">Header Logo</a></div>
+      <ul class="nav-links">
         <li><a href="#">Header Link One</a></li>
         <li><a href="#">Header Link Two</a></li>
-        <li><a href="#">Header Link THree</a></li>
+        <li><a href="#">Header Link Three</a></li>
       </ul>
     </div>
-  </nav>
+  </div>
   <main>
-    <div class="banner">
-      <div class="banner-text">
-        <h1>This webiste is awesome</h1>
-        <p>This website has some subtest that goes here under the main title. It's a smaller font and the color is lower
-          contrast</p>
+    <div class="banner-background">
+      <div class="banner-content">
+        <div class="banner-text">
+          <h1>This website is awesome</h1>
+          <p>This website has some subtest that goes here under the main title. It's a smaller font and the color is
+            lower
+            contrast</p>
+          <button class="button banner">
+            Sign Up
+          </button>
+        </div>
+        <div class="banner-image">
+          <img src="https://images.pexels.com/photos/2541310/pexels-photo-2541310.jpeg" alt="multiple lanterns">
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="information">
+        <h2>Some random information.</h2>
+        <div class="icon-boxes">
+          <div class="icon-box">
+            <img src="https://via.placeholder.com/170" alt="">
+            <p>This is a random picture placeholder</p>
+          </div>
+          <div class="icon-box">
+            <img src="https://via.placeholder.com/170" alt="">
+            <p>This is a random picture placeholder</p>
+          </div>
+          <div class="icon-box">
+            <img src="https://via.placeholder.com/170" alt="">
+            <p>This is a random picture placeholder</p>
+          </div>
+          <div class="icon-box">
+            <img src="https://via.placeholder.com/170" alt="">
+            <p>This is a random picture placeholder</p>
+          </div>
+        </div>
+      </div>
+      <div class="quote-background">
+        <div class="quote-content">
+          <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up
+            space, or maybe people will actually read it. Who knows? All I know is it looks nice.</p>
+          <div class="quote-person">-Thor, God of Thunder</div>
+        </div>
       </div>
     </div>
   </main>
+  <footer class="footer-content">
+    <div class="footer-text">
+      <h3>Call to action! It's time!</h3>
+      <p>Sign up for our product by clicking that button over to that button over there!</p>
+    </div>
+    <button class="button footer-button">
+      <a href="#">Sign Up</a>
+    </button>
+  </footer>
 </body>
 
 </html>
